@@ -1,0 +1,45 @@
+Set-Content ecolicenca\.gitignore -Value @"
+# Vagrant
+.vagrant/
+Vagrantfile
+
+# IDEs
+.class
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node / Angular
+node_modules/
+/dist
+/.angular
+npm-debug.log
+yarn-error.log
+
+# Java / Spring Boot
+/target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+/bin/
+.gradle/
+build/
+
+# Logs e arquivos temporários
+*.log
+.DS_Store
+Thumbs.db
+"@
+
+# Java / Maventarget/*.class# Node / Angularnode_modules/dist/.angular/# IDEs e SO.idea/.vscode/*.iml.DS_Store# Segredos.env
+root = true[*]charset = utf-8end_of_line = lfindent_style = spaceindent_size = 2insert_final_newline = true[*.java]indent_size = 4
